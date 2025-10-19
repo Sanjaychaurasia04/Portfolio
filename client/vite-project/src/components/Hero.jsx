@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import photo1 from '../assets/photo1.png';
 
 export default function Hero() {
   const scrollToProjects = () => {
@@ -40,7 +41,9 @@ export default function Hero() {
         </div>
         <div className="hero__image">
           <div className="hero__avatar">
-            <span>👨‍💻</span>
+            <span>
+              <img src={photo1} alt="photo" />
+            </span>
           </div>
         </div>
       </div>

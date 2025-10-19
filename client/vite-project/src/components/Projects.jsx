@@ -5,42 +5,42 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "AI-Powered Chat Application",
-      description: "A real-time chat application with AI integration for smart responses and automated assistance. Features include user authentication, real-time messaging, and AI-powered chat suggestions.",
-      technologies: ["React", "Node.js", "Socket.io", "MongoDB", "TensorFlow"],
-      githubUrl: "https://github.com/Sanjaychaurasia04/ai-chat-app",
+      title: "AI-Based Shelf Life & Expiry Date Detection System",
+      description: "Flipkart Grid 6 Hackathon project combining Computer Vision and OCR to predict freshness of fruits/vegetables and extract expiry dates from packaging. Advanced to penultimate round with dual-vision system for perishable item handling.",
+      technologies: ["Python", "TensorFlow", "OpenCV", "EasyOCR", "Keras", "CNN"],
+      githubUrl: "https://github.com/Sanjaychaurasia04/Flipkart-Grid-6.0",
       liveUrl: "#",
-      image: "🚀",
+      image: "🤖",
       featured: true
     },
     {
       id: 2,
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with user authentication, product management, shopping cart, and payment integration. Includes admin dashboard for inventory management.",
-      technologies: ["React", "Express.js", "MongoDB", "JWT", "Stripe API"],
-      githubUrl: "https://github.com/Sanjaychaurasia04/ecommerce-platform",
-      liveUrl: "#",
+      title: "Shopify Clone E-Commerce Platform",
+      description: "A responsive Shopify Clone built with React and Vite, simulating modern e-commerce experience with product listings, cart functionality, and smooth navigation. Features dynamic cart updates and fully responsive design.",
+      technologies: ["React", "Vite", "CSS3", "JavaScript", "E-commerce"],
+      githubUrl: "https://github.com/Sanjaychaurasia04/shopify-clone",
+      liveUrl: "https://shopify-clone-orcin.vercel.app/",
       image: "🛒",
       featured: true
     },
     {
       id: 3,
-      title: "Machine Learning Model Dashboard",
-      description: "Interactive dashboard for visualizing and managing machine learning models. Includes model performance metrics, data visualization, and prediction interfaces.",
-      technologies: ["Python", "Django", "React", "Chart.js", "Scikit-learn"],
-      githubUrl: "https://github.com/Sanjaychaurasia04/ml-dashboard",
-      liveUrl: "#",
-      image: "📊",
-      featured: false
+      title: "Electrical Services Website",
+      description: "Professional website for electrical services with booking system, service catalog, and contact forms. Includes interactive calendar for appointments and localStorage-based form submissions with full responsiveness.",
+      technologies: ["React", "React Router", "CSS3", "React Calendar", "LocalStorage"],
+      githubUrl: "https://github.com/Sanjaychaurasia04/electrical-services-website",
+      liveUrl: "https://electrical-services-seven.vercel.app/",
+      image: "⚡",
+      featured: true
     },
     {
       id: 4,
-      title: "Task Management System",
-      description: "Collaborative task management tool with drag-and-drop functionality, real-time updates, and team collaboration features. Supports file attachments and comments.",
-      technologies: ["React", "Node.js", "PostgreSQL", "WebSocket", "Redis"],
-      githubUrl: "https://github.com/Sanjaychaurasia04/task-manager",
-      liveUrl: "#",
-      image: "✅",
+      title: "Printing Machine Repair Services Website",
+      description: "Professional platform for printing machine repair services featuring service catalog, image gallery, client testimonials, and booking system. Specializes in Heidelberg and major printing press repairs.",
+      technologies: ["React", "CSS3", "React Icons", "Vite", "Responsive Design"],
+      githubUrl: "https://github.com/Sanjaychaurasia04/printing-repair-website",
+      liveUrl: "https://printing-repair-website.vercel.app/",
+      image: "🖨️",
       featured: false
     }
   ];
@@ -52,7 +52,7 @@ export default function Projects() {
           <h2 className="projects__title">Featured Projects</h2>
           <div className="projects__divider"></div>
           <p className="projects__subtitle">
-            Here are some of my recent projects that showcase my skills and experience
+            Here are some of my recent projects that showcase my skills in full-stack development, AI, and modern web technologies
           </p>
         </header>
 
@@ -79,7 +79,7 @@ export default function Projects() {
                   >
                     GitHub
                   </a>
-                  {project.liveUrl && (
+                  {project.liveUrl && project.liveUrl !== "#" && (
                     <a 
                       href={project.liveUrl} 
                       className="project-link project-link--live"
