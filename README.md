@@ -85,3 +85,15 @@ npm install
 npm install
 npm run dev
 ```
+
+## License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contact
+
+- **Email:** [sanjaychaurasia0403@gmail.com](mailto:sanjaychaurasia0403@gmail.com)  
+- **LinkedIn:** [linkedin.com/in/sanjaychaurasia04](https://linkedin.com/in/sanjaychaurasia04)  
+- **GitHub:** [github.com/Sanjaychaurasia04](https://github.com/Sanjaychaurasia04)
