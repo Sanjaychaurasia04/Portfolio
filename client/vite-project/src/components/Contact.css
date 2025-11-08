@@ -72,7 +72,6 @@
   line-height: 1.7;
 }
 
-/* Content Layout */
 .contact__content {
   display: flex;
   gap: 3rem;
@@ -80,7 +79,6 @@
   justify-content: center;
 }
 
-/* --- Contact Info --- */
 .contact__info {
   flex: 1;
   min-width: 300px;
@@ -118,14 +116,14 @@
   transition: all 0.3s ease;
 }
 
-.contact__method:hover {
+/* .contact__method:hover {
   background: #0d6efd;
   color: white;
-}
+} */
 
-.contact__method:hover .contact__icon {
+/* .contact__method:hover .contact__icon {
   color: white;
-}
+} */
 
 .contact__icon {
   font-size: 1.8rem;
