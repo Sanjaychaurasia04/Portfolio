@@ -55,7 +55,7 @@ export default function Contact() {
                 <span className="contact__icon">📧</span>
                 <div>
                   <h4>Email</h4>
-                  <a href="mailto:sanjaychaurasia0403@gmail.com" className="contact__link">
+                  <a href="mailto:sanjaychaurasi22@gmail.com" className="contact__link">
                     sanjaychaurasi22@gmail.com
                   </a>
                 </div>
