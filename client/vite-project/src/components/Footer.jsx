@@ -16,7 +16,7 @@ export default function Footer() {
 
           <div className="footer__links">
             <a
-              href="https://github.com/Sanjaychaurasia04"
+              href="https://github.com/Sanjaychaurasia04/"
               className="footer__link"
               target="_blank"
               rel="noopener noreferrer"
@@ -24,7 +24,7 @@ export default function Footer() {
               <Github size={18} /> <span>GitHub</span>
             </a>
             <a
-              href="https://linkedin.com/in/sanjaychaurasia04"
+              href="https://www.linkedin.com/in/sanjay-chaurasia-822001256/"
               className="footer__link"
               target="_blank"
               rel="noopener noreferrer"
