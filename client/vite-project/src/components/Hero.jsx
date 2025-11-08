@@ -34,7 +34,7 @@ export default function Hero() {
             </button>
           </div>
           <div className="hero__links">
-            <a href="github.com/Sanjaychaurasia04/" className="hero__link">GitHub</a>
+            <a href="https://github.com/Sanjaychaurasia04/" className="hero__link">GitHub</a>
             <a href="https://www.linkedin.com/in/sanjay-chaurasia-822001256/" className="hero__link">LinkedIn</a>
             <a href="mailto:sanjaychaurasi22@gmail.com" className="hero__link">Email</a>
           </div>
