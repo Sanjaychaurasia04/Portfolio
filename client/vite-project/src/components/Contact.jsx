@@ -56,7 +56,7 @@ export default function Contact() {
                 <div>
                   <h4>Email</h4>
                   <a href="mailto:sanjaychaurasia0403@gmail.com" className="contact__link">
-                    sanjaychaurasia0403@gmail.com
+                    sanjaychaurasi22@gmail.com
                   </a>
                 </div>
               </div>
@@ -66,12 +66,12 @@ export default function Contact() {
                 <div>
                   <h4>LinkedIn</h4>
                   <a 
-                    href="https://linkedin.com/in/sanjaychaurasia04" 
+                    href="https://www.linkedin.com/in/sanjay-chaurasia-822001256/" 
                     className="contact__link"
                     target="_blank" 
                     rel="noopener noreferrer"
                   >
-                    linkedin.com/in/sanjaychaurasia04
+                    linkedin.com/in/sanjay-chaurasia-822001256
                   </a>
                 </div>
               </div>
@@ -81,7 +81,7 @@ export default function Contact() {
                 <div>
                   <h4>GitHub</h4>
                   <a 
-                    href="https://github.com/Sanjaychaurasia04" 
+                    href="https://github.com/Sanjaychaurasia04/" 
                     className="contact__link"
                     target="_blank" 
                     rel="noopener noreferrer"
